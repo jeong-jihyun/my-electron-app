@@ -1,0 +1,26 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeong-jihyun/my-electron-app.git"
+  },
+  "author": "JiHyun.Jeong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeong-jihyun/my-electron-app/issues"
+  },
+  "homepage": "https://github.com/jeong-jihyun/my-electron-app#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.3.0",
+    "electron": "^26.0.0"
+  },
+  "dependencies": {}
+}
